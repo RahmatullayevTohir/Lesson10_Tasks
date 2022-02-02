@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_gradiant"
+    tools:context=".SingUpActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:fontFamily="@font/billabong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Instagram"
+            android:textSize="30sp" />
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:textColorHint="#E8D5D5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/view_rounded"
+            android:hint="Fullname"
+            android:textSize="20sp" />
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:textColorHint="#E8D5D5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/view_rounded"
+            android:hint="Email"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:textColorHint="#E8D5D5"
+            android:hint="Password"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"
+            android:background="@drawable/view_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:textColorHint="#E8D5D5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/view_rounded"
+            android:hint="Confirm Password"
+            android:textSize="20sp" />
+
+        <Button
+            android:text="Sing Up"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/view_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_gravity="right"
+            android:textSize="16sp"
+            android:paddingLeft="60dp"
+            android:text="Already have an account?"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:layout_width="250dp"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/b_next_singIn"
+            android:text="@string/sing_in"
+            android:background="@drawable/view_button_rounded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
